@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GeneSeq Analyzer</string>
+    <string name="app_subtitle">Biological Sequence Database &amp; Multi-Omics Suite</string>
+
+    <!-- Auth Strings -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to access your genomic sequence database</string>
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Register to analyze and store biological sequences</string>
+
+    <string name="label_email">Email Address</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_full_name">Full Name</string>
+
+    <string name="btn_login">Sign In</string>
+    <string name="btn_register">Create Account</string>
+    <string name="btn_google_sign_in">Sign in with Google</string>
+
+    <string name="prompt_no_account">Don\'t have an account? Register</string>
+    <string name="prompt_have_account">Already have an account? Sign In</string>
+
+    <!-- Validation Error Messages -->
+    <string name="error_empty_email">Email address is required</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_empty_password">Password is required</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_empty_name">Full name is required</string>
+    <string name="error_auth_failed">Authentication failed: %1$s</string>
+
+    <!-- Firebase / Google Client ID Placeholder -->
+    <string name="default_web_client_id_placeholder">1010543171303.apps.googleusercontent.com</string>
+
+    <!-- Dashboard Strings -->
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="welcome_subtitle">Genomic Sequence &amp; Multi-Omics Dashboard</string>
+    <string name="title_scan_accession">Scan Accession No.</string>
+    <string name="desc_scan_accession">Use ML Kit OCR to read printed lab sheets</string>
+    <string name="title_enter_accession">Enter Accession ID</string>
+    <string name="desc_enter_accession">Manual lookup for RefSeq or GenBank IDs</string>
+    <string name="title_recent_analyses">Recent Analyses</string>
+    <string name="desc_recent_analyses">Browse past FASTA and ORF analysis logs</string>
+    <string name="title_saved_sequences">Saved Sequences</string>
+    <string name="desc_saved_sequences">Access offline stored genomic sequences</string>
+    <string name="title_settings">Settings</string>
+    <string name="desc_settings">Themes, display options &amp; export rules</string>
+    <string name="title_quick_fetch">Quick NCBI Fetch</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_fetch">Fetch Sequence</string>
+
+    <!-- Scanner Strings -->
+    <string name="scanner_title">Accession OCR Scanner</string>
+    <string name="btn_take_photo">Camera Scan</string>
+    <string name="btn_choose_gallery">Import Image</string>
+    <string name="scanner_instruction">Point your camera or pick an image containing NCBI Accession IDs (e.g. NM_000518, NC_000001)</string>
+    <string name="detected_accession_title">Detected Accession Number(s):</string>
+    <string name="btn_confirm_fetch">Confirm &amp; Fetch NCBI Sequence</string>
+    <string name="no_accession_found">No valid NCBI accession numbers detected in image. Please try again or type manually.</string>
+    <string name="scanning_progress">Recognizing text with ML Kit...</string>
+    <string name="permission_camera_denied">Camera permission is required to scan accession numbers.</string>
+
+    <!-- Manual Entry & NCBI Fetch Strings -->
+    <string name="manual_entry_title">Manual Accession Lookup</string>
+    <string name="manual_entry_subtitle">Enter any valid NCBI RefSeq or GenBank accession ID to fetch FASTA data</string>
+    <string name="sample_accessions_label">Try sample accession IDs:</string>
+    <string name="hint_accession_input">Accession ID (e.g. NM_000518, NC_000001)</string>
+    <string name="error_empty_accession">Please enter a valid NCBI Accession ID</string>
+    <string name="error_ncbi_fetch_failed">NCBI Retrieval Error: %1$s</string>
+    <string name="error_ncbi_not_found">No sequence record found for Accession ID: %1$s</string>
+    <string name="status_fetching_ncbi">Contacting NCBI E-utilities API...</string>
+</resources>

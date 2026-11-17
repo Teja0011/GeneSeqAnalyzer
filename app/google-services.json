@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010543171303",
+    "project_id": "geneseq-analyzer",
+    "storage_bucket": "geneseq-analyzer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010543171303:android:3de0c1090362af1f657442",
+        "android_client_info": {
+          "package_name": "com.bioseq.geneseqanalyzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5PaJYOkrqCE_j8UrHrCXGRfqaIOXin6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

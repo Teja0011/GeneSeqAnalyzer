@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary - Deep Tech & Biotech Blue -->
+    <color name="primary_blue">#0F4C81</color>
+    <color name="primary_blue_variant">#0A3459</color>
+    <color name="primary_container_light">#E3F2FD</color>
+    <color name="primary_container_dark">#1E3A5F</color>
+
+    <!-- Brand Secondary - Biotech Cyan / Teal -->
+    <color name="secondary_teal">#00A896</color>
+    <color name="secondary_container_light">#E0F7FA</color>
+    <color name="secondary_container_dark">#004D40</color>
+
+    <!-- Accent & Tertiary -->
+    <color name="tertiary_indigo">#3F51B5</color>
+    <color name="tertiary_container_light">#E8EAF6</color>
+    <color name="tertiary_container_dark">#1A237E</color>
+
+    <!-- Light Theme Surface & Background -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_light">#EDF2F7</color>
+    <color name="text_primary_light">#1A202C</color>
+    <color name="text_secondary_light">#4A5568</color>
+    <color name="divider_light">#E2E8F0</color>
+
+    <!-- Dark Theme Surface & Background -->
+    <color name="background_dark">#0A1118</color>
+    <color name="surface_dark">#131D27</color>
+    <color name="surface_variant_dark">#1C2936</color>
+    <color name="text_primary_dark">#EDF2F7</color>
+    <color name="text_secondary_dark">#CBD5E0</color>
+    <color name="divider_dark">#2D3748</color>
+
+    <!-- Biological Base Colors -->
+    <color name="base_a">#4CAF50</color>
+    <color name="base_t">#F44336</color>
+    <color name="base_g">#2196F3</color>
+    <color name="base_c">#FF9800</color>
+
+    <!-- Status Colors -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#2E7D32</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

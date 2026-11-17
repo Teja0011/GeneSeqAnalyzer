@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Material Design 3 Dark). -->
+    <style name="Base.Theme.GeneSeqAnalyzer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Font Family Override for clean professional UI -->
+        <item name="android:fontFamily">sans-serif</item>
+
+        <!-- Color palette -->
+        <item name="colorPrimary">#64B5F6</item>
+        <item name="colorOnPrimary">#002147</item>
+        <item name="colorPrimaryContainer">@color/primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">#D1E4FF</item>
+
+        <item name="colorSecondary">#4DDFCE</item>
+        <item name="colorOnSecondary">#003731</item>
+        <item name="colorSecondaryContainer">@color/secondary_container_dark</item>
+
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
+        <item name="colorOnBackground">@color/text_primary_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary_dark</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Component Styles -->
+        <item name="materialCardViewStyle">@style/Widget.GeneSeq.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.GeneSeq.Button</item>
+    </style>
+
+    <!-- Card style for Dark mode -->
+    <style name="Widget.GeneSeq.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/divider_dark</item>
+        <item name="cardBackgroundColor">@color/surface_dark</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Sequence Monospace Text Style for Dark mode -->
+    <style name="TextAppearance.GeneSeq.Monospace" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:textColor">#81D4FA</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <!-- Header Text Style for Dark mode -->
+    <style name="TextAppearance.GeneSeq.Header" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#64B5F6</item>
+    </style>
+</resources>
